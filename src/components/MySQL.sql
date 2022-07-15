@@ -29,3 +29,13 @@ SELECT COUNT(id), genero FROM pessoa GROUP BY genero;
 
 INSERT INTO pessoa (nome, nascimento, genero) VALUES ('Paula', '1998 10 22', 'F');
 
+'A PRIMERY KEY de uma tabala Entidade serve de FORGNE KEY para uma tabela Relacional';
+
+SELECT * FROM videos_canais AS vc JOIN videos AS v ON vc.fk_video = v.id_video;
+
+INNER JOIN (JOIN)
+OUTER JOIN
+
+
+
+JOIN canais AS c ON vc.fk_canal = c.id_canal
