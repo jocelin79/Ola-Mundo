@@ -20,3 +20,12 @@ DELETE FROM pessoa WHERE id=5;
 SELECT * FROM pessoa ORDER BY nome;
 
 SELECT * FROM pessoa ORDER BY DESC
+
+UPDATE pessoa SET genero = 'F' WHERE id=1;
+
+UPDATE pessoa SET genero = 'M' WHERE id = 2;
+
+SELECT COUNT(id), genero FROM pessoa GROUP BY genero;
+
+INSERT INTO pessoa (nome, nascimento, genero) VALUES ('Paula', '1998 10 22', 'F');
+
