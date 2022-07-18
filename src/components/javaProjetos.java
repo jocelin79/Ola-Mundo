@@ -53,5 +53,8 @@ class ExemploList {
 		System.out.println("Remova a nota 0: ");
 		notas.remove(0d);
 		System.out.println(notas);
+("Remova as notas menores que 7");
+
+
 	}
 }
