@@ -53,11 +53,14 @@ class ExemploList {
 		System.out.println("Remova a nota 0: ");
 		notas.remove(0d);
 		System.out.println(notas);
-("Remova as notas menores que 7");
-Iterator<Double> iterator1 = notas.iterator();
-while(iterator1.hasnext()) {
-Double next = iterator1.next();
-}
-
+		("Remova as notas menores que 7");
+		Iterator<Double> iterator1 = notas.iterator();
+		while(iterator1.hasnext()) {
+			Double next = iterator1.next();
+			if (next < 7) iterator.remove();
+		}
+		System.out.println(notas);
+		
+		System.out.println("notas está vazio:" + notas.Empty());
 	}
 }
