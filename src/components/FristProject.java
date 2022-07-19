@@ -67,3 +67,30 @@ class ExemploList {
 
 meusGatos.sort(Comparator.comparing(Gato::gato.nome));
 
+System.out.println("Oderm de Inscrição da List de objetos Gato");
+System.out.println(meusGatos);
+
+System.out.println("Ordem Aleatória");
+Collections.shuffle(meusGatos);
+System.out.println(meusGatos);
+
+System.out.println("Ordem Natural (nome)");
+Collection.sort(meusGatos);
+System.out.println(meusGatos);
+
+System.out.println("Ordem Idade");
+meusGatos.sort(new ComparatorIdade());
+System.out.println(meusGatos);
+
+
+
+@Override toString;
+@Override compareto;
+
+class ComparatorIdade implements Comparator<Gato> {
+	@Override
+	public int compare(Gato g1, Gato g2) {
+		return Integer
+	}
+}
+
