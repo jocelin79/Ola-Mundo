@@ -64,3 +64,6 @@ class ExemploList {
 		System.out.println("notas está vazio:" + notas.Empty());
 	}
 }
+
+meusGatos.sort(Comparator.comparing(Gato::gato.nome));
+
