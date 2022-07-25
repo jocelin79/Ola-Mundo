@@ -1,4 +1,4 @@
-package br.com.dio.collection.list;
+Nopackage br.com.dio.collection.list;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,3 +15,12 @@ public class ExercicioProposto01 {
         List<Double> temperaturas = new ArrayList<Double>();
 
         //Adicionando as temperaturas na lista:
+
+int count = 0;
+
+while (true) {
+If (count == 6) breack;
+System.out.print("Digite a temperatura: ");
+double tempo = scan.nextDouble();
+temperaturas
+}
