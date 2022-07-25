@@ -21,6 +21,15 @@ int count = 0;
 while (true) {
 If (count == 6) breack;
 System.out.print("Digite a temperatura: ");
-double tempo = scan.nextDouble();
-temperaturas
+double temp = scan.nextDouble();
+temperaturas.add(temp);
+count++
 }
+
+System.out.println("-------------------");
+
+// Exibindo todas as temperaturas
+
+System.out.println("Todas as temperaturas: ");
+temperaturas
+
